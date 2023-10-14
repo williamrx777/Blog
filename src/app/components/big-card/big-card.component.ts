@@ -7,9 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class BigCardComponent {
   @Input()
+  Id:string="0"
+  @Input()
   photoCover:string = ""
   @Input()
-  cardTitle:string = "NOVO HOMEM DE FERRO ANUNCIADO"
+  cardTitle:string = ""
   @Input()
-  cardDescription:string = "Marvel studio anuncia novo filme do homem de ferro."
+  cardDescription:string = ""
+
 }
